@@ -36,7 +36,7 @@
     </html>
     ```
 
-    ![img](image/1.png)<br>
+    ![img](Image/1.png)<br>
 
 2. Pemakaian Alert ssebagai property window.
     ```html
