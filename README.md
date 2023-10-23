@@ -288,7 +288,6 @@
     ![img](image/15.png)<br>
 
 
-
 11. HTML DOM, Pilihan menggunakan checkBox dengan perhitungan otomatis.
 
     ```html
@@ -330,56 +329,49 @@
 1. Buat script untuk melakukan validasi pada isian form.<br>    
 
     ```html
-<html>
+    <html>
 
-<head>
-    <title>Validasi Form</title>
-</head>
+    <head>
+        <title>Validasi Form</title>
+    </head>
 
-<body>
-    <h2>Formulir Validasi</h2>
-    <form id="myForm" onsubmit="return validateForm()">
-        <label for="nama">Nama:</label>
-        <input type="text" id="nama" name="nama">
-        <br><br>
-
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email">
-        <br><br>
-
-        <label for="pesan">Pesan:</label>
-        <textarea id="pesan" name="pesan"></textarea>
-        <br><br>
-
-        <input type="submit" value="Kirim">
-    </form>
-
-    <script>
-        function validateForm() {
-            var nama = document.forms["myForm"]["nama"].value;
-            var email = document.forms["myForm"]["email"].value;
-            var pesan = document.forms["myForm"]["pesan"].value;
-
+    <body>
+        <h1>Formulir Validasi</h1>
+        <form id="myForm" onsubmit="return validateForm()">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama"><br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <br>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan"></textarea><br>
+            <br>
+            <input type="submit" value="Kirim">
+        </form>
+        <script>
+            function validateForm() {
+                var nama = document.forms["myForm"]["nama"].value;
+                var email = document.forms["myForm"]["email"].value;
+                var pesan = document.forms["myForm"]["pesan"].value;
             if (nama == "") {
                 alert("Nama harus diisi");
                 return false;
             }
-
             if (email == "") {
                 alert("Email harus diisi");
                 return false;
             }
-
             if (pesan == "") {
                 alert("Pesan harus diisi");
                 return false;
             }
-
             return true;
         }
-    </script>
-</body>
-
-</html>
+        </script>
+    </body>
+    </html>
     ```
-    ![img](image/17.png) <br>
+
+    ![img](image/17.png)<br>
+   
