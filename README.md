@@ -218,7 +218,7 @@
     </html>
     ```
 
-    ![gambar](image/11.png)<br>
+    ![gambar](Image/11.png)<br>
     <br>
     **HASIL**<br>
     ![gambar](Image/12.png)<br>
@@ -374,4 +374,6 @@
     ```
 
     ![gambar](Image/17.png)<br>
+    
+    SELESAI
    
