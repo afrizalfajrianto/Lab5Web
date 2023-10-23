@@ -36,7 +36,7 @@
     </html>
     ```
 
-    ![gambar](Image/1.png)<br>
+    ![gambar](image/1.png)<br>
 
 2. Pemakaian Alert ssebagai property window.
     ```html
@@ -56,7 +56,7 @@
     </body>
     </html>
     ```
-    ![img](image/2.png)<br>
+    ![gambar](image/2.png)<br>
 
 3. Pemakaian method dalam objek.
 
@@ -78,7 +78,7 @@
     </html>
     ```
 
-    ![img](image/3.png)<br>
+    ![gambar](image/3.png)<br>
 
 4. Pemakaian Prompt
 
@@ -97,10 +97,10 @@
     </html>
     ```
 
-    ![img](image/4.png)<br>
+    ![gambar](image/4.png)<br>
     <br>
     **HASIL**<br>
-    ![img](image/5.png)<br>
+    ![gambar](image/5.png)<br>
 
 5. Pembuatan fungsi dan cara pemanggilannya.
 
@@ -121,7 +121,7 @@
     </html>
     ```
 
-    ![img](image/6.png)<br>
+    ![gambar](image/6.png)<br>
 
 6. Operasi dasar aritmatika.
 
@@ -150,10 +150,10 @@
     </html>
     ```
 
-    ![img](image/7.png)<br>
+    ![gambar](image/7.png)<br>
     <br>
     **HASIL**<br>
-    ![img](image/8.png)<br>
+    ![gambar](image/8.png)<br>
 
 7. Seleksi kondisi IF & ELSE.
 
@@ -176,10 +176,10 @@
     </html>
     ```
 
-    ![img](image/9.png)<br>
+    ![gambar](image/9.png)<br>
     <br>
     **HASIL**<br>
-    ![img](image/10.png)<br>
+    ![gambar](image/10.png)<br>
 
 8. Penggunaan operator switch untuk seleksi kondisi.
 
@@ -218,10 +218,10 @@
     </html>
     ```
 
-    ![img](image/11.png)<br>
+    ![gambar](image/11.png)<br>
     <br>
     **HASIL**<br>
-    ![img](image/12.png)<br>
+    ![gambar](image/12.png)<br>
 
 9. Pembuatan FORM, **FORM INPUT**
 
@@ -249,7 +249,7 @@
     </html>
     ```
 
-    ![img](image/13.png)<br>
+    ![gambar](image/13.png)<br>
 
 10. Pembuatan Form, **FORM BUTTON**.
 
@@ -282,10 +282,10 @@
     </html>
     ```
 
-    ![img](image/14.png)<br>
+    ![gambar](image/14.png)<br>
     <br>
     **Hasil Setelah diklik button yang lainnya**<br>
-    ![img](image/15.png)<br>
+    ![gambar](image/15.png)<br>
 
 
 11. HTML DOM, Pilihan menggunakan checkBox dengan perhitungan otomatis.
@@ -322,4 +322,56 @@
     </html>
     ```
 
-    ![img](image/16.png)<br>
+    ![gambar](image/16.png)<br>
+
+## PERTANYAAN & TUGAS
+
+1. Buat script untuk melakukan validasi pada isian form.<br>    
+
+    ```html
+    <html>
+
+    <head>
+        <title>Validasi Form</title>
+    </head>
+
+    <body>
+        <h1>Formulir Validasi</h1>
+        <form id="myForm" onsubmit="return validateForm()">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama"><br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <br>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan"></textarea><br>
+            <br>
+            <input type="submit" value="Kirim">
+        </form>
+        <script>
+            function validateForm() {
+                var nama = document.forms["myForm"]["nama"].value;
+                var email = document.forms["myForm"]["email"].value;
+                var pesan = document.forms["myForm"]["pesan"].value;
+            if (nama == "") {
+                alert("Nama harus diisi");
+                return false;
+            }
+            if (email == "") {
+                alert("Email harus diisi");
+                return false;
+            }
+            if (pesan == "") {
+                alert("Pesan harus diisi");
+                return false;
+            }
+            return true;
+        }
+        </script>
+    </body>
+    </html>
+    ```
+
+    ![gambar](image/17.png)<br>
+   
