@@ -1,325 +1,85 @@
 # Lab5Web
+## Langkah - Praktikum 5
+### Menghubungkan HTML dengan JavaScript
+Persiapkan file HTML dengan nama file lab5web.html dan hubungkan HTML dengan JavaScript dengan cara menambahkan sebuah sytax `<script>` seperti berikut
+<p>
 
-## PENGANTAR JAVASCRIPT
+![Gambar1](image/1.png)<p>
+Hasil setelah di run program dengan web browser dan di cek dengan inspect maka akan muncul console dari JavaScript
 
- - Javascript adalah bahasa pemrograman yang awalnya dirancang untuk berjalan di atas browser. Namun, seiring perkembangan zaman, javascript tidak hanya berjalan di atas browser saja. Javascript juga dapat digunakan pada sisi Server, Game, IoT, Desktop, dsb.<br>
- - Nama resmi JavaScript adalah ECMAScript. ECMAScript dikembangkan oleh ECMA Organization. ECMA-262 adalah standar resmi JavaScript. Diciptakan oleh Brendan Eich. Muncul pertama kali di semua browser Netscape dan Microsoft pada tahun 1996. Disetujui sebagai standar internasional pada tahun 1998.
- - JavaScript digunakan untuk memprogram perilaku halaman web, diantaranya adalah:
-    1. Dapat Mengubah Konten HTML
-    2. Dapat Mengubah Nilai Atribut HTML
-    3. Dapat Mengubah Gaya HTML (CSS)
-    4. Dapat Menyembunyikan Elemen HTML
-    5. Dapat Menampilkan Elemen HTML
-    <br>
- - Dalam HTML, kode JavaScript disisipkan di antara tag **script** dan **/script**. Script dapat diletakkan pada tag **head** atau **body**, atau dapat juga diletakkan pada keduanya. JavaScript juga dapat diletakkan pada file external.
+![Gambar2](screenshot/konsole.png)
+<p>
 
- ## LANGKAH-LANGKAH PRAKTIKUM
+###  Pemakaian Alert sebagai alert property window
+Jendela dialog alert digunakan untuk menampilkan sebuah pesan peringatan atau informasi. Masih dengan cara yang sama seperti yang sebelumnya hanya saja mengganti di bagian `<script>` seperti gambar dibawah.<p>
 
-1. Membuat file HTML dan bikin seperti berikut.
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <title>Mengenal JavaScript</title>
-    </head>
+![Gambar3](screenshot/windowsalertcode.png)<p>
+Hasil setelah di run programnya dengan web browser<p>
 
-    <body>
-        <h1>Pengenalan JavaScript</h1>
-        <h3>Contoh document.write dan console.log</h3>
-        <script>
-            document.write("Hello World");
-            console.log("Hello World");
-        </script>
+![Gambar4](screenshot/window%20alert.png)<p>
 
-    </body>
+### Pemakaian method dalam objek
+Untuk menampilkan method yang digunakan, buat file html dan ikuti seperti gambar yang ada di bawah ini.<p>
 
-    </html>
-    ```
+![Gambar5](screenshot/methodcode.png)<p>
+Hasil setelah di run programnya<p>
 
-    ![img](image/1.png)<br>
+![gambar6](screenshot/method.png)
 
-2. Pemakaian Alert ssebagai property window.
-    ```html
-    <html>
-    <head>
-        <title>
-            alert box
-        </title>
-    </head>
+### Pemakaian Jendela Dialog Prompt
+Jendela Dialog Prompt berfungsi untuk mengambil sebuah inputan dari pengguna.<p>
 
-    <body>
-        <script lang="javascript">
-            !--
-            window.alert("ini merupakan pesan untuk anda");
-            //-->
-        </script>
-    </body>
-    </html>
-    ```
-    ![img](image/2.png)<br>
+![Gambar7](screenshot/promptcode.png)<p>
+Untuk Hasil setelah dirun programnya
+![Gambar8](screenshot/prompt1.png)
+![Gambar9](screenshot/prompt2.png)
 
-3. Pemakaian method dalam objek.
+### Pembuatan Fungsi dan Cara pemanggilannya
+Berfungsi untuk memamnggil data lewat body onload<p>
+![Gambar10](screenshot/fungsicode.png)<p>
+Hasil dari code gambar di atas<p>
+![Gambar11](screenshot/function.png)<p>
 
-    ```html
-    <html>
-    <head>
-        <title>Skrip JavaScript</title>
-    </head>
+### Program Dasar Aritmatika
+Untuk membuat dasar aritmatika bisa menggukan dengan `funtion` dan menginput nilai yang di inginkan<p>
+![Gambar12](screenshot/operasiartimatikacode.png)<p>
+Hasil setelah run Program<p>
+![Gambar13](screenshot/buttonaritmethic.png)<p>
+Masukan Nilai yang dinginkan urntuk di hitung oleh program<p>
+![Gambar14](screenshot/aritmethic.png)<p>
 
-    <body>
-        Percobaan memakai javascript:<br>
-        <script lang="javascript">
-            <!--
-            document.write("Selamat Mencoba JavaScript<br>");
-            document.write("Semoga Sukses");
-            //-->
-        </script>
-    </body>
-    </html>
-    ```
+### Seleksi Kondisi If-Else
+If-Else berfungsi untuk melakukan pemeriksaan apakah suatu kondisi terpenuhi (benar) atau tidak terpenenuhi (salah) untuk contohnya bisa ikuti gambar yang ada di bawah ini<p>
+![Gambar15](screenshot/kondisi(if-else)code.png)<p>
+Hasil setelah di run programnya<p>
+![Gambar16](screenshot/if-else.png)<p>
+![Gamaba17](screenshot/if-else2.png)<p>
 
-    ![img](image/3.png)<br>
+### Operator Switch
+Operator Switch hampir sama dengan kondisi if-else tetapi Operator Switch kode yang ditulis bisa menjadi lebih mudah dibaca dan to the point untuk contohnya pada gambar dibawah ini<p> 
+![Gambar18](screenshot/operatorswitchcode.png)<p>
+Hasil setelah di run programnya<p>
+![Gambar19](screenshot/outputopswitch.png)<p>
 
-4. Pemakaian Prompt
+### Pembuatan Form
+Form Input berfungsi uuntuk mengambil informasi dari pengguna dapat diisi, kemudian diproses dengan program tertentu<p>
+![Gambar20](screenshot/forminputcode.png)<p>
+Hasil setelah di run programnya<p>
+![Gambar21](screenshot/forminput.png)<p>
+<p>
+Form Button berfungsi untuk membuat sebuah tombol untuk mengubah tampilan contohnya seperti gambar di bawah ini<p>
 
-    ```html
-    <html>
-    <head>
-        <title>Pemasukan data</title>
-    </head>
+![Gambar22](screenshot/formbutton2.png)<p>
+Hasil setelah di run programnya<p>
+![Gambar23](screenshot/formbuttonoutput.png)<p>
+Setelah diklik button yang lainnya<p>
+![Gambar24](screenshot/formbuttonoutput2.png)<p>
 
-    <body>
-        <script lang="javascript">
-            var nama = prompt("Siapa Nama Anda?", "Masukkan nama anda");
-            document.write("Hai, " + nama);
-        </script>
-    </body>
-    </html>
-    ```
-
-    ![img](image/4.png)<br>
-    <br>
-    **HASIL**<br>
-    ![img](image/5.png)<br>
-
-5. Pembuatan fungsi dan cara pemanggilannya.
-
-    ```html
-    <html>
-    <head>
-        <title>Program</title>
-        <script lang="javascript">
-            function pesan() 
-            {
-                alert("Memanggil JavaScript lewat body onload")
-            }
-        </script>
-    </head>
-
-    <body onload=pesan()>
-    </body>
-    </html>
-    ```
-
-    ![img](image/6.png)<br>
-
-6. Operasi dasar aritmatika.
-
-    ```html
-    <html>
-    <head>
-        <title>Program Aritmatika</title>
-        <script lang="javascript">
-            function test(val1, val2) {
-                document.write("<br>" + "Perkalian : val1*val2 " + "<br>")
-                document.write(val1 * val2)
-                document.write("<br>" + "Pembagian : val1*val2 " + "<br>")
-                document.write(val1 / val2)
-                document.write("<br>" + "Penjumlahan : val1*val2 " + "<br>")
-                document.write(val1 + val2)
-                document.write("<br>" + "pengurangan : val1*val2 " + "<br>")
-                document.write(val1 - val2)
-                document.write("<br>" + "Modulus : val1*val2 " + "<br>")
-                document.write(val1 % val2)
-            }
-        </script>
-    </head>
-    <body>
-        <input type="button" name="button1" value="aritmethic" onclick=test(10,5)>
-    </body>
-    </html>
-    ```
-
-    ![img](image/7.png)<br>
-    <br>
-    **HASIL**<br>
-    ![img](image/8.png)<br>
-
-7. Seleksi kondisi IF & ELSE.
-
-    ```html
-    <html>
-    <head>
-        <title>contoh if-else</title>
-    </head>
-    <body>
-        <script lang="javascript">
-            var nilai = prompt("Nilai (0-100): ", 0);
-            var hasil = "";
-            if (nilai >= 60)
-                hasil = "Lulus";
-            else
-                hasil = "Tidak Lulus";
-            document.write("Hasil: " + hasil);
-        </script>
-    </body>
-    </html>
-    ```
-
-    ![img](image/9.png)<br>
-    <br>
-    **HASIL**<br>
-    ![img](image/10.png)<br>
-
-8. Penggunaan operator switch untuk seleksi kondisi.
-
-    ```html
-    <html>
-    <head>
-        <title>Operator Switch</title>
-        <script lang="javascript">
-            function test() {
-                val1 = window.prompt("Input Nilai (1-5) :")
-                switch (val1) {
-                    case "1":
-                        document.write("Bilangan Satu")
-                        break
-                    case "2":
-                        document.write("Bilangan Dua")
-                        break
-                    case "3":
-                        document.write("Bilangan Tiga")
-                        break
-                    case "4":
-                        document.write("Bilangan Empat")
-                        break
-                    case "5":
-                        document.write("Bilangan Lima")
-                        break
-                    default:
-                        document.write("Bilangan Lainnya")
-                }
-            }
-        </script>
-    </head>
-    <body>
-        <input type="button" name="button" value="button" onclick=test()>
-    </body>
-    </html>
-    ```
-
-    ![img](image/11.png)<br>
-    <br>
-    **HASIL**<br>
-    ![img](image/12.png)<br>
-
-9. Pembuatan FORM, **FORM INPUT**
-
-    ```html
-    <html>
-    <head>
-        <title>Form Input</title>
-        <script lang="javascript">
-            function test() {
-                var val1 = document.kirim.T1.value
-                if (val1 % 2 == 0)
-                    document.kirim.T2.value = "Bilangan Genap"
-                else
-                    document.kirim.T2.value = "Bilangan Ganjil"
-            }
-        </script>
-    </head>
-    <body>
-        <form method="POST" name="kirim">
-            <p>
-                BILL <input type="text" name="T1" size="20"> MERUPAKAN BILL <input type="text" name="T2" size="20"></p>
-            <p><input type="button" value="TEBAK" name="B1" onclick=test()></p>
-        </form>
-    </body>
-    </html>
-    ```
-
-    ![img](image/13.png)<br>
-
-10. Pembuatan Form, **FORM BUTTON**.
-
-    ```html
-    <html>
-    <head>
-        <title>Object Document</title>
-    </head>
-    <body>
-        <script lang="javascript">
-            function ubahwarnaLB(warna) {
-                document.bgColor = warna;
-            }
-
-            function ubahwarnaLD(warna) {
-                document.bgColor = warna;
-            }
-        </script>
-        <h1>Test</h1>
-        <form>
-            <input type="button" value="Latar Belakang Hijau" onclick="ubahwarnaLB('Green')">
-            <input type="button" value="Latar Belakang Putih" onclick="ubahwarnaLB('White')">
-            <input type="button" value="Teks Kuning" onclick="ubahwarnaLB('YELLOW')">
-            <input type="button" value="Teks Biru" onclick="ubahwarnaLB('BLUE')">
-        </form>
-        <script lang="javascript">
-            document.write("Dimodifikasi terakhir kapan" + "document.last modify")
-        </script>
-    </body>
-    </html>
-    ```
-
-    ![img](image/14.png)<br>
-    <br>
-    **Hasil Setelah diklik button yang lainnya**<br>
-    ![img](image/15.png)<br>
+### HTML DOM
+Pilihan menggunakan checkBox dengan penghitungan otomatis dan dengan contoh sebuah program penghitungan kasir<p>
+![Gambar25](screenshot/htmldomcode.png)<p>
+Hasil setelah di run programnya<p>
+![Gambar26](screenshot/htmldom.png)
 
 
-11. HTML DOM, Pilihan menggunakan checkBox dengan perhitungan otomatis.
-
-    ```html
-    <html>
-    <head>
-        <title>Daftar Menu</title>
-        <script>
-            function hitung(ele) {
-                var total = document.getElementById('total').value;
-                total = (total ? parseInt(total) : 0);
-                var harga = 0;
-
-                if (ele.checked) {
-                    harga = ele.value;
-                    total += parseInt(harga);
-                } else {
-                    harga = ele.value;
-                    if (total > 0)
-                        total -= parseInt(harga);
-                }
-                document.getElementById('total').value = total;
-            }
-        </script>
-    </head>
-    <body>
-        <h1>Daftar Menu Makanan</h1>
-        <label><input type="checkbox" value="5000" id="Menu 1" onclick="hitung(this);" /> Ayam Goreng Rp.5.000</label><br>
-        <label><input type="checkbox" value="500" id="Menu 2" onclick="hitung(this);" /> Tempe Goreng Rp.500</label><br>
-        <label><input type="checkbox" value="2500" id="Menu 3" onclick="hitung(this);" /> Telur Dadar Rp.5.000</label><br>
-        <strong>Total Bayar : Rp. <input id="total" type="text" /></strong>
-    </body>
-    </html>
-    ```
-
-    ![img](image/16.png)<br>
+SELESAI
