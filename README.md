@@ -56,7 +56,7 @@
     </body>
     </html>
     ```
-    ![gambar](image/2.png)<br>
+    ![gambar](Image/2.png)<br>
 
 3. Pemakaian method dalam objek.
 
@@ -78,7 +78,7 @@
     </html>
     ```
 
-    ![gambar](image/3.png)<br>
+    ![gambar](Image/3.png)<br>
 
 4. Pemakaian Prompt
 
@@ -97,10 +97,10 @@
     </html>
     ```
 
-    ![gambar](image/4.png)<br>
+    ![gambar](Image/4.png)<br>
     <br>
     **HASIL**<br>
-    ![gambar](image/5.png)<br>
+    ![gambar](Image/5.png)<br>
 
 5. Pembuatan fungsi dan cara pemanggilannya.
 
@@ -121,7 +121,7 @@
     </html>
     ```
 
-    ![gambar](image/6.png)<br>
+    ![gambar](Image/6.png)<br>
 
 6. Operasi dasar aritmatika.
 
@@ -150,10 +150,10 @@
     </html>
     ```
 
-    ![gambar](image/7.png)<br>
+    ![gambar](Image/7.png)<br>
     <br>
     **HASIL**<br>
-    ![gambar](image/8.png)<br>
+    ![gambar](Image/8.png)<br>
 
 7. Seleksi kondisi IF & ELSE.
 
@@ -176,10 +176,10 @@
     </html>
     ```
 
-    ![gambar](image/9.png)<br>
+    ![gambar](Image/9.png)<br>
     <br>
     **HASIL**<br>
-    ![gambar](image/10.png)<br>
+    ![gambar](Image/10.png)<br>
 
 8. Penggunaan operator switch untuk seleksi kondisi.
 
@@ -221,7 +221,7 @@
     ![gambar](image/11.png)<br>
     <br>
     **HASIL**<br>
-    ![gambar](image/12.png)<br>
+    ![gambar](Image/12.png)<br>
 
 9. Pembuatan FORM, **FORM INPUT**
 
@@ -249,7 +249,7 @@
     </html>
     ```
 
-    ![gambar](image/13.png)<br>
+    ![gambar](Image/13.png)<br>
 
 10. Pembuatan Form, **FORM BUTTON**.
 
@@ -282,10 +282,10 @@
     </html>
     ```
 
-    ![gambar](image/14.png)<br>
+    ![gambar](Image/14.png)<br>
     <br>
     **Hasil Setelah diklik button yang lainnya**<br>
-    ![gambar](image/15.png)<br>
+    ![gambar](Image/15.png)<br>
 
 
 11. HTML DOM, Pilihan menggunakan checkBox dengan perhitungan otomatis.
@@ -322,7 +322,7 @@
     </html>
     ```
 
-    ![gambar](image/16.png)<br>
+    ![gambar](Image/16.png)<br>
 
 ## PERTANYAAN & TUGAS
 
@@ -373,5 +373,5 @@
     </html>
     ```
 
-    ![gambar](image/17.png)<br>
+    ![gambar](Image/17.png)<br>
    
